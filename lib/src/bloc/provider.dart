@@ -4,7 +4,7 @@ import 'package:formvalidation/src/bloc/productos_bloc.dart';
 export 'package:formvalidation/src/bloc/login_bloc.dart';
 
 class Provider extends InheritedWidget{
-
+  
   static Provider _instancia;
 
   factory Provider({Key key, Widget child}){
